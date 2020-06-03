@@ -1,0 +1,61 @@
+Dear Users,
+
+As a logical continuation of our MIDI Unified package, we have prepared for you and also for us a MIDI ACTIONS for PLAYMAKER.
+
+These actions are in most cases self explanatory and more over we use tooltips wherever it is possible so please check these. 
+
+If you have any wish or suggestion how to improve our product please contact us at : assetstore@foriero.com
+
+REQUIERMENTS : Unity Pro, PlayMaker 1.1 or later, MIDI Unified package 1.4 or later
+
+With kind regards,
+Marek Ledvina
+
+INSTALATION
+-----------
+1) Install "PlayMaker V1.3.1 or later" from Hutonggames.
+2) Install "MIDI Unified package"
+3) Install "MIDI PlayMaker Actions" package.
+
+Version 1.21
+
+	Altered MidiInDisconnect. No index or port is requiered.
+	Altered MidiOutDisconnect. No index or port is requered.
+
+Version 1.2
+
+	Added MidiInWaitForInit
+	Added MidiOutWaitForInit
+	Added MidiOutNoteCondition
+
+Version 1.1
+
+	Actions sorted into categories.
+	Added MidiOutShortMessageCondition
+	Added new Example Scene - Foriero
+
+Version 1.0
+
+ACTIONS 
+	AddGeneratorKeyboard
+	AddGeneratorMidiInput
+	AddGeneratorSequencer
+	MidiInConnect
+	MidiInDisconnect
+	MidiInInit
+	MidiOutChordOFF
+	MidiOutChordON
+	MidiOutDisconnect
+	MidiOutSendMessage
+	MidiOutSetChannel
+	MidiOutSetControl
+	MidiOutSetInstrument (in midi language known as MidiOutSetProgram)
+	RemoveGeneratorKeyboard
+	RemoveGeneratorMidiInput
+	RemoveGeneratorMidiSequencer
+	SequencerLoadMidiFileFromResources
+	SequencerPause
+	SequencerPlay
+	SequencerSetMidiFile
+	SequencerStop
+	

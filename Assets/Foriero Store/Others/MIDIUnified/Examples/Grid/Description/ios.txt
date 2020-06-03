@@ -1,0 +1,48 @@
+1) Create a new project. Install MIDIUnified 3.0 
+
+2) In Installations directory install -> install_native_plugins.unitypackage
+
+3) If you will use playmaker install first Playmaker and then install_playmaker_actions.unitypackage
+
+4) switch your project to iOS
+
+5) set Build Settings -> PlayerSettings
+	Api Compatibility Level -> .NET 2.0
+	ScriptCallOptimamizatin -> Fast but no exceptions
+	iOS Version -> at least 5.1
+	Dont forget to set up your app id : com.mycompany.projectname 
+
+6) Drag MIDIUnfied Init into your scene. 
+
+7) Set iOS synth on MIDIUnified Init script if you want to have sound on your device. You can select number of channels and sample rate also. 
+
+8) You can hide Midi Selection GUI -> there is show field on MIDIUnifiec Init -> MidiSelection script -> show
+
+9) On MIDIUnified Init-> MidiUnified Init Script -> you also can set Default Midi In and Out. Then the script should always try to connect to these port numbers. On iOS it should be (if there is no USB Midi device connected) alway "Session 1" depends what you will set on OSX.
+
+10) If you will write your own script dont forget to include : using ForieroEngine.MIDIUnified;
+		
+	And then for sednig for example controlling messages use just MidiOut.ShortMessage(int Command, int Data1, int Data2)
+	For sending NoteON or NoteOFF there are help functions like MidiOut.NoteON(), MidiOut.NoteOFF()
+
+11) Build. At the end of the building process you should get message that MIDIUnified has been installed properly. That means it was included automatically into your iOS project.
+
+12) Compile your project in xcode and you are good to go. 
+
+13) In case of any difficulties please contact me via skype.
+
+OSX SETTINGS
+------------
+
+1) In spotligh find "Audio MIDI Setup". 
+2) In menu click window -> Show Midi Window. 
+3) Click Networks. 
+4) Add Session. 
+5) Run your iOS app with MIDIUnified 3.0 on your mobile device.
+6) Connect your device to the session. 
+  
+
+Please do not distribute in any form this package. 
+Thank you and good day, 
+Marek. 
+

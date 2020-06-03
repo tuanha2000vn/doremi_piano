@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - KeyBlack
+  - KeyWhite
+  - Note
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - KeyBlackLayer
+  - KeyWhiteLayer
+  - PracticeLayer
+  - NoteAllLayer
+  - NoteBlackLayer
+  - NoteWhiteLayer
+  - MeasureLayer
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MeasureSort
+    uniqueID: 2403638647
+    locked: 0
+  - name: BackgroundSort
+    uniqueID: 3246057361
+    locked: 0
+  - name: NoteWhiteSort
+    uniqueID: 4106889875
+    locked: 0
+  - name: NoteBlackSort
+    uniqueID: 1087197073
+    locked: 0
+  - name: KeyWhiteSort
+    uniqueID: 540135657
+    locked: 0
+  - name: KeyBlackSort
+    uniqueID: 1828517417
+    locked: 0

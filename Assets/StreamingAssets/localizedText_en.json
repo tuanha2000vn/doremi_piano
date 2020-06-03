@@ -1,0 +1,163 @@
+{
+    "items": [{
+            "key": "Play",
+            "value": "Play"
+        },
+        {
+            "key": "Learn",
+            "value": "Learn"
+        },
+        {
+            "key": "Speed",
+            "value": "Speed"
+        },
+        {
+            "key": "Search Song",
+            "value": "Search song..."
+        },
+        {
+            "key": "Zoom",
+            "value": "Zoom"
+        },
+        {
+            "key": "Trans",
+            "value": "Transpose"
+        },
+        {
+            "key": "Select Play Instrument",
+            "value": "Select Instrument"
+        },
+        {
+            "key": "Select Left Hand Instrument",
+            "value": "Select Left Hand Instrument"
+        },
+        {
+            "key": "Select Right Hand Instrument",
+            "value": "Select Right Hand Instrument"
+        },
+        {
+            "key": "Select Melody Instrument",
+            "value": "Select Melody Instrument"
+        },
+        {
+            "key": "Select Learn Mode",
+            "value": "Select Learn Mode"
+        },
+        {
+            "key": "Watch and Memorize",
+            "value": "Watch and Memorize"
+        },
+        {
+            "key": "Watch and Memorize Detail",
+            "value": "Watch finger position and memorize the melody"
+        },
+        {
+            "key": "Learn Right Hand",
+            "value": "Learn Right Hand"
+        },
+        {
+            "key": "Learn Right Hand Detail",
+            "value": "Connect midi keyboard and play right hand"
+        },
+        {
+            "key": "Learn Left Hand",
+            "value": "Learn Left Hand"
+        },
+        {
+            "key": "Learn Left Hand Detail",
+            "value": "Connect midi keyboard and play left hand"
+        },
+        {
+            "key": "Learn Both Hands",
+            "value": "Learn Both Hands"
+        },
+        {
+            "key": "Learn Both Hands Detail",
+            "value": "Connect midi keyboard and play both hands"
+        },
+        {
+            "key": "Select Language",
+            "value": "Select Language"
+        },
+        {
+            "key": "Setting",
+            "value": "Setting"
+        },
+        {
+            "key": "Loading song list",
+            "value": "Loading song list"
+        },
+        {
+            "key": "Generating",
+            "value": "Generating"
+        },
+        {
+            "key": "Loading",
+            "value": "Loading"
+        },
+        {
+            "key": "All",
+            "value": "All"
+        },
+        {
+            "key": "Classical",
+            "value": "Classical"
+        },
+        {
+            "key": "Featured",
+            "value": "Featured"
+        },
+        {
+            "key": "Most Played",
+            "value": "Most Played"
+        },
+        {
+            "key": "Lessons",
+            "value": "Lessons"
+        },
+        {
+            "key": "Finger",
+            "value": "Finger"
+        },
+        {
+            "key": "Keyboard Type",
+            "value": "Keyboard Type (Auto Play Note Outside Keyboard Range)"
+        },
+        {
+            "key": "Check Midi-In Port",
+            "value": "Check Midi-In Port"
+        },
+        {
+            "key": "No Midi In Detected",
+            "value": "No Midi In Detected"
+        },
+        {
+            "key": "Diff-Hard",
+            "value": "Hard"
+        },
+        {
+            "key": "Diff-Medium",
+            "value": "Medium"
+        },
+        {
+            "key": "Diff-Easy",
+            "value": "Easy"
+        },
+        {
+            "key": "Contact Us",
+            "value": "Contact Us"
+        },
+        {
+            "key": "Use Microphone",
+            "value": "Use Microphone"
+        },
+        {
+            "key": "Use Midi Port",
+            "value": "Use Midi Port"
+        },
+        {
+            "key": "Select Input",
+            "value": "Select Input"
+        }            
+    ]
+}

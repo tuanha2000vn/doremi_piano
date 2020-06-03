@@ -1,0 +1,7 @@
+Go to http://jazz-soft.net and download and install their browser plugin.
+
+See web_test_build.zip how you should set and structure your html page. 
+Do not uzip it into your project, it is complete builded project.
+
+There are no other requirements inside unity. Just set your build setting to WebPlayer and you are good to go. 
+

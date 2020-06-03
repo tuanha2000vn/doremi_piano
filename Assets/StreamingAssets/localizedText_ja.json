@@ -1,0 +1,163 @@
+{
+    "items": [{
+            "key": "Play",
+            "value": "演奏"
+        },
+        {
+            "key": "Learn",
+            "value": "学習"
+        },
+        {
+            "key": "Speed",
+            "value": "速度"
+        },
+        {
+            "key": "Search Song",
+            "value": "曲を検索..."
+        },
+        {
+            "key": "Zoom",
+            "value": "ズーム"
+        },
+        {
+            "key": "Trans",
+            "value": "移調"
+        },
+        {
+            "key": "Select Play Instrument",
+            "value": "演奏楽器を選択"
+        },
+        {
+            "key": "Select Left Hand Instrument",
+            "value": "左手の楽器を選択"
+        },
+        {
+            "key": "Select Right Hand Instrument",
+            "value": "右手の楽器を選択"
+        },
+        {
+            "key": "Select Melody Instrument",
+            "value": "メロディー楽器を選択"
+        },
+        {
+            "key": "Select Learn Mode",
+            "value": "練習モードを選択"
+        },
+        {
+            "key": "Watch and Memorize",
+            "value": "見て覚える"
+        },
+        {
+            "key": "Watch and Memorize Detail",
+            "value": "見て覚える詳細"
+        },
+        {
+            "key": "Learn Right Hand",
+            "value": "右手の学習"
+        },
+        {
+            "key": "Learn Right Hand Detail",
+            "value": "MIDIキーボードを接続して右手を弾く"
+        },
+        {
+            "key": "Learn Left Hand",
+            "value": "左手の学習"
+        },
+        {
+            "key": "Learn Left Hand Detail",
+            "value": "MIDIキーボードを接続して左手を弾く"
+        },
+        {
+            "key": "Learn Both Hands",
+            "value": "両手で学習"
+        },
+        {
+            "key": "Learn Both Hands Detail",
+            "value": "MIDIキーボードを接続して両手を演奏する"
+        },
+        {
+            "key": "Select Language",
+            "value": "言語を選択"
+        },
+        {
+            "key": "Setting",
+            "value": "設定"
+        },
+        {
+            "key": "Loading song list",
+            "value": "曲リストを読み込み中"
+        },
+        {
+            "key": "Generating",
+            "value": "生成"
+        },
+        {
+            "key": "Loading",
+            "value": "読み込み中"
+        },
+        {
+            "key": "All",
+            "value": "すべて"
+        },
+        {
+            "key": "Classical",
+            "value": "クラシック"
+        },
+        {
+            "key": "Featured",
+            "value": "お気に入り"
+        },
+        {
+            "key": "Most Played",
+            "value": "最も演奏された曲"
+        },
+        {
+            "key": "Lessons",
+            "value": "レッスン"
+        },
+        {
+            "key": "Finger",
+            "value": "指"
+        },
+        {
+            "key": "Keyboard Type",
+            "value": "キーボードタイプ)"
+        },
+        {
+            "key": "Check Midi-In Port",
+            "value": "Midi-Inポートを確認"
+        },
+        {
+            "key": "No Midi In Detected",
+            "value": "Midi-Inの端末が見つかりません。"
+        },
+        {
+            "key": "Diff-Hard",
+            "value": "困難"
+        },
+        {
+            "key": "Diff-Medium",
+            "value": "普通"
+        },
+        {
+            "key": "Diff-Easy",
+            "value": "容易"
+        },
+        {
+            "key": "Contact Us",
+            "value": "お問い合わせ"
+        },
+        {
+            "key": "Use Microphone",
+            "value": "マイクを使用する"
+        },
+        {
+            "key": "Use Midi Port",
+            "value": "ミディポートを使用する"
+        },
+        {
+            "key": "Select Input",
+            "value": "入力の選択"
+        }       
+    ]
+}

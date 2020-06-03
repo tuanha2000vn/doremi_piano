@@ -1,0 +1,10 @@
+Foriero Studio
+--------------
+
+1) install native_plugins.unitypackage
+2) if you are on windows, please at least build one time "Platform Example" scene.
+	
+		Editor->Build Settings-> Choose your platform (Windows) -> Switch (if necessary) -> Build
+		
+		This step is necessary in order to tell unity to use windows dlls
+		

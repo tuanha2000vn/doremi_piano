@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1076786965761",
+    "firebase_url": "https://doremipiano-cee8a.firebaseio.com",
+    "project_id": "doremipiano-cee8a",
+    "storage_bucket": "doremipiano-cee8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076786965761:android:30a86b71204427a0",
+        "android_client_info": {
+          "package_name": "com.thhkstudio.doremipiano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076786965761-ebfhq7rpmaoqgarb4229lfm5vs29l4lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV2AQrH0YQHRt3P9NqpDUU36GLiNe4dEk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

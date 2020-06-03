@@ -1,0 +1,163 @@
+{
+    "items": [{
+            "key": "Play",
+            "value": "Chơi"
+        },
+        {
+            "key": "Learn",
+            "value": "Học"
+        },
+        {
+            "key": "Speed",
+            "value": "Tốc Độ"
+        },
+        {
+            "key": "Search Song",
+            "value": "Tìm kiếm bài hát..."
+        },
+        {
+            "key": "Zoom",
+            "value": "Zoom"
+        },
+        {
+            "key": "Trans",
+            "value": "Tông"
+        },
+        {
+            "key": "Select Play Instrument",
+            "value": "Chọn Nhạc Cụ"
+        },
+        {
+            "key": "Select Left Hand Instrument",
+            "value": "Chọn Nhạc Cụ Tay Trái"
+        },
+        {
+            "key": "Select Right Hand Instrument",
+            "value": "Chọn Nhạc Cụ Tay Phải"
+        },
+        {
+            "key": "Select Melody Instrument",
+            "value": "Chọn Nhạc Cụ Giai Điệu"
+        },
+        {
+            "key": "Select Learn Mode",
+            "value": "Chọn Cách Học"
+        },
+        {
+            "key": "Watch and Memorize",
+            "value": "Xem Và Ghi Nhớ"
+        },
+        {
+            "key": "Watch and Memorize Detail",
+            "value": "Xem vị trí ngón tay và ghi nhớ giai điệu"
+        },
+        {
+            "key": "Learn Right Hand",
+            "value": "Học Tay Phải"
+        },
+        {
+            "key": "Learn Right Hand Detail",
+            "value": "Kết nối bàn phím midi và chơi tay phải"
+        },
+        {
+            "key": "Learn Left Hand",
+            "value": "Học Tay Trái"
+        },
+        {
+            "key": "Learn Left Hand Detail",
+            "value": "Kết nối bàn phím midi và chơi tay phải"
+        },
+        {
+            "key": "Learn Both Hands",
+            "value": "Học cả hai tay"
+        },
+        {
+            "key": "Learn Both Hands Detail",
+            "value": "Kết nối bàn phím midi và chơi cả hai tay"
+        },
+        {
+            "key": "Select Language",
+            "value": "Chọn Ngôn Ngữ"
+        },
+        {
+            "key": "Setting",
+            "value": "Cài Đặt"
+        },
+        {
+            "key": "Loading song list",
+            "value": "Đang tải danh sách bài hát"
+        },
+        {
+            "key": "Generating",
+            "value": "Đang tạo"
+        },
+        {
+            "key": "Loading",
+            "value": "Đang tải"
+        },
+        {
+            "key": "All",
+            "value": "Tất cả"
+        },
+        {
+            "key": "Classical",
+            "value": "Cổ điển"
+        },
+        {
+            "key": "Featured",
+            "value": "Nổi bật"
+        },
+        {
+            "key": "Most Played",
+            "value": "Được chơi nhiều"
+        },
+        {
+            "key": "Lessons",
+            "value": "Bài học"
+        },
+        {
+            "key": "Finger",
+            "value": "Ngón tay"
+        },
+        {
+            "key": "Keyboard Type",
+            "value": "Loại bàn phím (Tự động chơi nốt ngoài quãng đàn)"
+        },
+        {
+            "key": "Check Midi-In Port",
+            "value": "Kiểm tra cổng Midi-In"
+        },
+        {
+            "key": "No Midi In Detected",
+            "value": "Không tìm thấy thiết bị Midi-In"
+        },
+        {
+            "key": "Diff-Hard",
+            "value": "Khó"
+        },
+        {
+            "key": "Diff-Medium",
+            "value": "Vừa"
+        },
+        {
+            "key": "Diff-Easy",
+            "value": "Dễ"
+        },
+        {
+            "key": "Contact Us",
+            "value": "Liên Hệ"
+        },
+        {
+            "key": "Use Microphone",
+            "value": "Dùng Microphone"
+        },
+        {
+            "key": "Use Midi Port",
+            "value": "Dùng cổng Midi"
+        },
+        {
+            "key": "Select Input",
+            "value": "Chọn Cổng Vào"
+        }                     
+    ]
+}

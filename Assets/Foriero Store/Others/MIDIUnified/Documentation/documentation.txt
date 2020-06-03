@@ -1,0 +1,64 @@
+
+Please notice Menu->Foriero->..... 
+
+There you can see Settings->Midi ( which is where you set all your midi settings for different platforms )
+
+
+Dear Users,
+
+We took the pain out of using midi in Unity on both platforms WIN/OSX.
+You have one set of API for both platforms. 
+Our library is steadily growing into handy midi tool, that will hopefully help you to make incredible apps for both WIN/OSX platforms.
+
+We have to give tribute to Leslie Sanford for his great work on C# MIDI TOOL KIT.
+
+We wish you as much joy as we have with using midi in Unity Engine.
+
+Kind regards,
+Marek Ledvina. 
+
+
+We did our best to simplify using midi in unity as much as possible. So there is not much requiered to be done from your side. 
+
+Try to use prefabs that you will find in Foriero/MIDIUnifie/MIDIUnfied/Prefabs
+
+Especially the one called "MIDIUnified Init.prefab". It is the basic settings for all platforms. You can learn from this prefab how we initialize all inputs and outputs.
+
+There are also other prefabs that are pretty simple. Check them there. 
+
+Go to Menu->Foriero->Settings->Midi Settings
+
+MIDI MONITORING
+---------------
+
+	Use MIDIOutMonitor prefab to monitor all you outgoing messages.	
+
+SUPPORTED PLATFORMS:
+
+Midi IN/OUT
+-----------
+Windows (INCLUDING METRO APPS)
+OSX
+iOS
+LINUX
+
+Apple Synthesiser
+-----------------
+OSX
+
+iOS Synthesiser
+---------------
+iOS
+
+BASS Synthesiser (www.un4seen.com)
+----------------------------------
+Windows XP, Vista, 7, 8, 8.1, 10
+OSX
+iOS (go to xCode BuiltSettings - Copy Bundle Resources + and insert softsynth.sf2)
+Android
+LINUX
+WSA
+
+C# Synthesiser
+--------------
+ALL PLATFORMS (It is pure C sharp synthesiser so it works on all platforms)

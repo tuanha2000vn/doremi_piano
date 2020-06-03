@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52d8e2225865411b96e560350aae8b6, type: 3}
+  m_Name: MIDISettings
+  m_EditorClassIdentifier: 
+  debug: 0
+  initialize: 1
+  android:
+    synthesizer: 2
+    outputSampleRateDivider: 1
+    channels: 16
+    preinit: 0
+  ios:
+    synthesizer: 0
+    outputSampleRateDivider: 1
+    channels: 16
+    preinit: 0
+    soundBank: 0
+  osx:
+    synthesizer: 2
+    outputSampleRateDivider: 1
+    channels: 16
+    preinit: 0
+  linux:
+    synthesizer: 2
+    outputSampleRateDivider: 1
+    channels: 16
+    preinit: 0
+  win:
+    synthesizer: 2
+    outputSampleRateDivider: 1
+    channels: 16
+    preinit: 0
+  wsa:
+    synthesizer: 2
+    outputSampleRateDivider: 1
+    channels: 16
+    preinit: 0
+  webgl:
+    synthesizer: 0
+    outputSampleRateDivider: 1
+    channels: 16
+    preinit: 0
+  forceDefaultMidiIn: 0
+  defaultMidiIn: 1
+  forceDefaultMidiOut: 0
+  defaultMidiOut: 1
+  synthChannelMask: -1
+  channelMask: -1
+  userName: 
+  password: 
+  ignoreProgramMessages: 0
+  instruments: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  inputSettings:
+    initialize: 1
+    midiOut: 1
+    useCustomVolume: 0
+    customVolume: 1
+    multiplyVolume: 1
+    midiThrough: 0
+    midiChannel: 2147483647
+    cleanBuffer: 0
+  keyboardSettings:
+    initialize: 1
+    midiOut: 1
+    keyboardOctave: 4
+    updateKeyboardOctave: 0
+    muteTonesWhenChangingOctave: 0
+    customVolume: 1
+    midiChannel: 2147483647
+    keyboardInputType: 1
+  playmakerSettings:
+    initialize: 1
+    midiOut: 1
+    midiChannel: 2147483647
+    useCustomVolume: 0
+    customVolume: 1

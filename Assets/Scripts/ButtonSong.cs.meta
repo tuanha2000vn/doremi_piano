@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 941c80672cfaee140805df64648b644c
+timeCreated: 1523503788
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LevelLoader: {fileID: 1805380908545294, guid: 4ddb95628fb04f241888d9c4c41d4398,
+      type: 2}
+  - Button: {instanceID: 0}
+  - TextSongName: {instanceID: 0}
+  - TextSongComposer: {instanceID: 0}
+  - TextSongType: {instanceID: 0}
+  - TextSongDifficulty: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

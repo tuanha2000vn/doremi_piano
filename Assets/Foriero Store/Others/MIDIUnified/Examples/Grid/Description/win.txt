@@ -1,0 +1,20 @@
+SYNTHESISER
+-----------
+
+Go to MIDIUnified Init object in the scene and select one of our outputs if you want. Or select none not use windows build in output synthesiser.
+
+You can use build in windows syntheiser. It is listed in midi selection. OR you can use sf2 BASSMIDI synthesiser. Licence is required from www.un4seen.com for commercial development.
+
+We have outsourced software synthesiser. The dlls we use are : (we are not allowed to distribute these files so you need to download them from www.un4seen.com)
+	WINDOWS : bass.dll, bassmidi.dll
+	--------------------------------
+	Please read www.un4seen.com license agreement. Download BASS24, BASSMIDI24.
+	
+	For EDITOR to work properly with these library copy bass.dll, bassmidi.dll and your softsynth.sf2 into where your Unity.exe is installed (c:/Program Files/Unity/)
+	For PLAYER copy bass.dll, bassmidi.dll and your softsynth.sf2 next to your game exe file.
+	
+	If you like to have your own SF2 file to be loaded. 
+		For EDITOR in Assets/Plugins/softsynth.sf2 - replace this file with your.
+		For PLAYER in data_GameName directory replace the softsynth.sf2.
+		
+	CAUTION: You need to manually copy softsynth.sf2 into PLAYER's data directory

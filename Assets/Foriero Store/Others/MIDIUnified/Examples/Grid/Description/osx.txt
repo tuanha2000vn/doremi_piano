@@ -1,0 +1,13 @@
+SYNTHESISER
+-----------
+
+Go to MIDIUnified Init object in the scene and select one of our outputs if you want. Or select none not use windows build in output synthesiser.
+
+We have outsourced software synthesiser. The dlls we use are : (we are not allowed to distribute these files so you need to download them from www.un4seen.com)
+	OSX : bass.dylib, bassmidi.dylib
+	--------------------------------
+	Please read www.un4seen.com license agreement. Download BASS24_OSX, BASSMIDI24_OSX.
+	
+	Go to Assets/Plugins/softsynth.bundle. Click right, choose - Reveal in Finder. 
+	Click right on that file, choose - Show Package Content.
+	Navigate to Contents/MacOS and copy bass.dylib and bassmidi.dylib there. 

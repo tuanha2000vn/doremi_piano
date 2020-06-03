@@ -1,0 +1,163 @@
+{
+    "items": [{
+            "key": "Play",
+            "value": "学习"
+        },
+        {
+            "key": "Learn",
+            "value": "学习"
+        },
+        {
+            "key": "Speed",
+            "value": "速度"
+        },
+        {
+            "key": "Search Song",
+            "value": "搜索歌曲..."
+        },
+        {
+            "key": "Zoom",
+            "value": "放大"
+        },
+        {
+            "key": "Trans",
+            "value": "颠倒"
+        },
+        {
+            "key": "Select Play Instrument",
+            "value": "选择仪器"
+        },
+        {
+            "key": "Select Left Hand Instrument",
+            "value": "选择左手乐器"
+        },
+        {
+            "key": "Select Right Hand Instrument",
+            "value": "选择右手乐器"
+        },
+        {
+            "key": "Select Melody Instrument",
+            "value": "选择旋律乐器"
+        },
+        {
+            "key": "Select Learn Mode",
+            "value": "选择学习模式"
+        },
+        {
+            "key": "Watch and Memorize",
+            "value": "观看和记忆"
+        },
+        {
+            "key": "Watch and Memorize Detail",
+            "value": "观看手指位置并记住旋律"
+        },
+        {
+            "key": "Learn Right Hand",
+            "value": "学习右手"
+        },
+        {
+            "key": "Learn Right Hand Detail",
+            "value": "连接midi键盘并弹出右手"
+        },
+        {
+            "key": "Learn Left Hand",
+            "value": "学习左手"
+        },
+        {
+            "key": "Learn Left Hand Detail",
+            "value": "连接midi键盘并弹奏左手"
+        },
+        {
+            "key": "Learn Both Hands",
+            "value": "了解双手"
+        },
+        {
+            "key": "Learn Both Hands Detail",
+            "value": "连接midi键盘并弹奏双手"
+        },
+        {
+            "key": "Select Language",
+            "value": "选择语言"
+        },
+        {
+            "key": "Setting",
+            "value": "设置"
+        },
+        {
+            "key": "Loading song list",
+            "value": "加载歌曲列表"
+        },
+        {
+            "key": "Generating",
+            "value": "创建"
+        },
+        {
+            "key": "Loading",
+            "value": "载入中"
+        },
+        {
+            "key": "All",
+            "value": "所有"
+        },
+        {
+            "key": "Classical",
+            "value": "古典"
+        },
+        {
+            "key": "Featured",
+            "value": "精选"
+        },
+        {
+            "key": "Most Played",
+            "value": "玩得最多"
+        },
+        {
+            "key": "Lessons",
+            "value": "教训"
+        },
+        {
+            "key": "Finger",
+            "value": "手指"
+        },
+        {
+            "key": "Keyboard Type",
+            "value": "键盘类型 (在键盘范围外自动播放音符)"
+        },
+        {
+            "key": "Check Midi-In Port",
+            "value": "检查Midi-In端口"
+        },
+        {
+            "key": "No Midi In Detected",
+            "value": "找不到Midi-In设备"
+        },
+        {
+            "key": "Diff-Hard",
+            "value": "難"
+        },
+        {
+            "key": "Diff-Medium",
+            "value": "中"
+        },
+        {
+            "key": "Diff-Easy",
+            "value": "緩解"
+        },
+        {
+            "key": "Contact Us",
+            "value": "联系我们"
+        },
+        {
+            "key": "Use Microphone",
+            "value": "使用麦克风"
+        },
+        {
+            "key": "Use Midi Port",
+            "value": "使用 Midi Port"
+        },
+        {
+            "key": "Select Input",
+            "value": "选择输入"
+        }       
+    ]
+}

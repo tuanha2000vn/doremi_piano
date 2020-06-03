@@ -1,0 +1,241 @@
+VERSION 5.5.1
+
+- Packed playmaker actions. 
+- Fixed MidiSettings. ( after importing MIDIUnified you should be able to play the example scenes with sound )
+
+VERSION 5.5
+
+- Unity 5.5 compatibility.
+
+VERSION 5.4.2
+- Preliminary implementation of MIDI IN/OUT for WEBGL
+- Packed playmaker actions.
+- Fixed playmaker example scenes
+- Fixed MidiOut and Synth masks
+
+VERSION 5.4
+- Fixed infinite loop when IN and OUT were connected to the same device
+- Fixed WIN 10 compilation errors. 
+- Other minor fixes.
+
+VERSION 5.3b11
+        Removed old IMGUI.
+        Simplified prefabs basically you need just MIDIUnified and MIDIUnified UI.
+        Reworked example scenes.
+        Preparation for Midi Through ( threaded ) and threaded Sequencer.
+        Sorted instruments enums.
+        Please download new Foriero Core
+
+VERSION 5.3b10
+        Added NATIVE Synth for Android - due to use of sonivox libraries user can not control number of channels or frequency it is set by the android system.
+
+VERSION 5.3b9
+	Fixed BASS Synth latency on most platforms
+
+VERSION 5.3b8
+	Fixed iOS NET backend compilation ( conflicting libraries )
+
+VERSION 5.3b7
+	Fixed WSA bass synth.
+	Initialization fixes.
+
+VERSION 5.3b6
+	Fixed Android Compilation.
+	Fixed latency on win standalone for bass synth.
+	Fixed MidiSelectionUI width when name of a device is larger then preferred dialog width.
+
+VERSION 5.3b5
+	Fixed iOS. Please disable BITCODE for now. We are working on update. Also for now it will not compile with IL2CPP but will be fixed.
+
+VERSION 5.3b4
+Packed playmaker actions. 
+
+VERSION 5.3b3
+	Fixed WSA export.
+	(Unity has bug in placeholders so please set the placeholder if you get export error)
+	Fixed Android Errors
+	Added new UI midi selections ( see Sequencer scene )
+
+VERSION 5.3b2
+
+	Please delete MIDIUnified directory before importing. 
+
+	Multi connection allowed. You can connect more than one device. iOS needs testing. WIN is hanging when two instances of your app is running and you try to connect the same device.
+
+	Added editor window to monitor and use midi input and outputs in edit mode. Menu->Foriero->Tools->Midi
+
+	Add MIDI.cs into your scene for WSA builds. Unity has bug in there.In future all will be auto initialized. Just go to Menu->Foriero->Settings->Midi
+
+VERSION 5.3b1
+
+	WIN 64bit support (Editor/Player)
+	LINUX support
+	Android Support
+	WIN STORE Support
+
+VERSION 5.0
+
+	Compatible with Unity 5.0. All is included in one directory. So old projects need to delete all relevant files from Plugins directory. (rtmidi.*, softsynth.* etc)
+
+	Added BASS24 synth for Android, LINUX
+	Added MIDI IN/OUT for WSA, LINUX
+	Added Native Synth for WSA
+	Added 64bit version for Windows standalone
+
+	Known issues 
+	------------
+	If two players or Editor in Play Mode and Unity Player runs at the same time. One of the apps crashes. 
+	C#Synth is broken
+
+VERSION 3.0
+	USE THIS VERSION ONLY FOR NEW PROJECTS AND DO NOT INSTALL IT INTO PROJECT WHERE MIDIUNIFIED 2.2 OR EARLIER IS INSTALLED
+	PLEASE BACKUP YOUR PROJECT AND PREVIOUS VERSION OF MIDI UNIFIED
+	WE HAVE COMPLETELY REWORKED THIS VERSION - THAT MEANS IT IS NOT BACKWARD COMPATIBLE RIGHT OUT OF THE BOX (OR AT LEST YOU WILL HAVE TO MAKE SOME CHANGES)
+	THERE IS DIRECTORY STRUCTURE CHANGES, WE RECOMEND TO DELETE IN PLUGINS FOLDER ALL MIDI PLUGINS AND ALSO TO DELTE IN PLUGINS MIDIUnified DIRECTORY COMPLETELY
+	
+	ADDED EXPERIMENTAL WEB BROWSER MIDI BASED ON Jazz-Midi INTERFACE (Example JazzMidi)
+	THIS VERSION WORKS ALSO FINE UNDER WINDOWS 8
+	WINDOWS 8 METRO IS ON OUR TO DO LIST - THERE IS NOT API FROM MICROSOFT YET
+	WE ALSO PLAN MIDI FOR ANDROID AND LINUX(32bit and 64bit) SOON
+
+VERSION 2.2
+
+	iOS
+	---
+	Removed AUPRESETS.
+	Added SOUND FONT 2, DLS files support.
+	Added Sound Banks (.sf2,.dls)
+
+VERSION 2.1
+
+	MidiSequencer.cs renamed to MidiSequencerSript.cs in order to avoid name conflict with our new ALL PLATFORM MIDI OUT SYNTHESIZER
+	Added experimental version of CSharpSyth project, that allows you to play midi on every possible platform.
+	Fixes : Platform dependent compilation (WIN) fixed
+
+VERSION 2.02
+
+	Support for iOS MIDI OUT/IN, SEQUENCER, AUPRESETS
+	PostprocessBuildPlayer for updating you iOS project automatically - install Editor/PostprocessBuildPlayer.unitypackage
+
+
+VESRION 1.55
+
+	IMPORTANT Bug fixed MidiSelection.cs
+
+VERSION 1.54
+
+	OSX
+		Fixed sending message to hardware devices.
+		MidiSelection.cs got a bit more polishing in order to be stable and reliable as much as it can be
+
+VESRION 1.53
+
+	Renamed InstrumentEnum to ProgramEnum.
+	Fixed ProgramEnum(InstrumentEnum) indexes. They were shifted by one.
+	Refined MidiSelection.cs
+	DisconnectDevice() has no index since our plugin allows only one MidiIn Device and one MidiOut device to be connected simultaneously.
+		
+	OSX
+		Added virtual destination so other application can connect to your unity app.
+		
+	Known Issue OSX
+		The plugin is not capable to send from a plugion midi messages to hardware devices. There is a work around with MIDIKeys application. Connect MIDIKeys to "Unity Midi Source" and output it to your hardware device. 
+		http://www.manyetas.com/creed/midikeys.html 
+		This seams to be a bug in OSX SDK, so we have to wait for the next version.  
+		
+VERSION 1.52
+
+	Added new thigs to MIDI Actions for PlayMaker package... see Plugins/PlayMaker/readme.txt
+
+VERSION 1.51
+
+	Minor bug fixing. MidiInput.cs, KeyboardInput.cs, Sequencer.cs
+	Added new thigs to MIDI Actions for PlayMaker package... see Plugins/PlayMaker/readme.txt
+
+VERSION 1.5
+
+	WIN&OSX
+	
+		Added BONUS package : MIDI Actions for PlayMaker V1.0 see Plugins/PlayMaker/readme.txt
+
+VERSION 1.4(1)
+
+	WIN&OSX
+	
+		Added MusicConversion script. 
+		
+		Added more functions and unified MidiOut script
+		
+		Unified MidiEnum script
+		
+		Package is prepared to be used with PlayMaker. 
+		
+
+Version 1.32 & 1.32 & 1.33 & 1.34
+	
+	Minor changes to Class Names and Namespaces names in order to not collide potentionally with your project classes.
+	
+	EDITOR
+		Fixed Sounds Off when edit mode.
+
+Version 1.3
+
+	WIN&OSX
+		Added SendControl function to MidiOut class ( now you can control sostenuto, pitch, bend etc ) see MidiEnum.cs
+	
+	OSX
+		Added full short message support for all MIDI OUT hardware devices
+		
+	Roadmap
+		In the next version we prepare a feature that you can have more IN or OUT ports opened at the same time.
+		
+
+Version 1.2
+
+	WIN&OSX
+	
+		Added Plugins/Scripts/Settings/MidiSelection.cs
+	
+	WIN
+		Fixed Compatibility XP, VISTA, WIN7
+	
+	Roadmap 
+		Implementation of all possible MIDI commands. 
+		Implementation of full MidiOut Devices Support
+	
+
+Version 1.1
+
+Features
+--------
+	WIN&OSX
+		Full ShortMessages support.
+
+	OSX 
+		Full midi in support
+		SoftSynth midi out support
+		Midi Sequencer
+	
+	WIN
+		Midi in support
+		Midi out support
+		Midi Sequencer
+
+	GENERATORS
+		MidiInput
+		MidiSequencer
+		KeyboardInput
+
+Known Issues
+------------
+	WIN
+		You can have only one MidiInput opened. (DO NOT HAVE TWO MIDI IN DEVICES OPENED AT THE SAME TIME)
+		You can have only one MidiOutut opened. (DO NOT HAVE TWO MIDI OUT DEVICES OPENED AT THE SAME TIME)
+	OSX
+		MidiOut is supported only for SoftSynth not for real devices. (Coming in V1.2)
+		
+Not supported features
+----------------------
+	WIN&OSX
+		SysExclMessages
+		Midi Through
